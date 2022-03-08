@@ -5,8 +5,8 @@ export default function CreateExercise() {
 
     const {id} = useParams();
  
-    const GET_EXERCISE_URL = process.env.REACT_APP_GET_EXERCISE;
-    const EDIT_EXERCISE_URL = process.env.REACT_APP_EDIT_EXERCISE;
+    const GET_EXERCISE_URL = https://exercise-tracker-backend-app.herokuapp.com/exercise/;
+    const EDIT_EXERCISE_URL = https://exercise-tracker-backend-app.herokuapp.com/exercise/update/;
 
     const [values, setValues] = useState(() => ({
         userName: "",
@@ -61,13 +61,6 @@ export default function CreateExercise() {
           .catch(err => console.log(err));
 
           window.location = '/';
-
-        // setValues({
-        //     userName: "",
-        //     description: "",
-        //     duration: "",
-        //     date: ""
-        // });
     }
 
     return (

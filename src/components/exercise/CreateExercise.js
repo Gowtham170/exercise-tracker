@@ -2,8 +2,8 @@ import React, {useState, useEffect} from 'react';
 
 export default function CreateExercise() {
 
-    const GET_USER_URL = process.env.REACT_APP_GET_USER;
-    const CREATE_EXERCISE_URL = process.env.REACT_APP_CREATE_EXERCISE;
+    const GET_USER_URL = https://exercise-tracker-backend-app.herokuapp.com/user/;
+    const CREATE_EXERCISE_URL = https://exercise-tracker-backend-app.herokuapp.com/exercise/add;
 
     const [users, setUsers] = useState([]);
 

@@ -4,8 +4,8 @@ import Exercise from './Exercise';
 
 export default function ExerciseList() {
 
-    const GET_EXERCISE_URL = process.env.REACT_APP_GET_EXERCISE;
-    const DELETE_EXERCISE_URL = process.env.REACT_APP_DELETE_EXERCISE;
+    const GET_EXERCISE_URL = https://exercise-tracker-backend-app.herokuapp.com/exercise/;
+    const DELETE_EXERCISE_URL = https://exercise-tracker-backend-app.herokuapp.com/exercise/;
 
     const [values, setValues] = useState([]);
 

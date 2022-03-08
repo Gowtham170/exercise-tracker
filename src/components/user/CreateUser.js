@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 export default function CreateUser() {
 
-    const CREATE_USER_URL = process.env.REACT_APP_CREATE_USER;
+    const CREATE_USER_URL = https://exercise-tracker-backend-app.herokuapp.com/user/add;
 
     const [userName, setUserName] = useState('');
     const [status, setStatus] = useState('');
